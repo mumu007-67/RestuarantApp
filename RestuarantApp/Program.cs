@@ -10,6 +10,9 @@ namespace RestuarantApp
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("World Hello");
+
         }
     }
 }
