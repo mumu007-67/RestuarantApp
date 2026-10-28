@@ -12,7 +12,7 @@ namespace RestuarantApp
         {
 
             Console.WriteLine("World Hello");
-
+            Console.WriteLine("Week 2");
         }
     }
 }
