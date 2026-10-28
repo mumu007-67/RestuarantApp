@@ -10,9 +10,21 @@ namespace RestuarantApp
     {
         static void Main(string[] args)
         {
+            List<Restuarant> restuarants = new List<Restuarant>();
 
-            Console.WriteLine("World Hello");
-            Console.WriteLine("Week 2");
+
+
+
         }
+    }
+
+    public class Restuarant
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public string type { get; set; }
+        public double rating { get; set; }
+        
+
     }
 }
