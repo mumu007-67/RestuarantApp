@@ -10,7 +10,13 @@ namespace RestuarantApp
     {
         static void Main(string[] args)
         {
-            List<Restuarant> restuarants = new List<Restuarant>();
+            Console.WriteLine("Hello SIT.1/1");
+            Console.WriteLine("Week 2");
+
+            List<Restuarant> restuarants = new List<Restuarant>
+            {
+                
+            };
 
 
 
@@ -25,6 +31,13 @@ namespace RestuarantApp
         public string type { get; set; }
         public double rating { get; set; }
         
+        public Restuarant(int id,string name,string type, double rate)
+        {
+            this.id = id;
+            this.name = name;
+            this.type = type;
+            this.rating = rate;
+        }
 
     }
 }
