@@ -16,6 +16,7 @@ namespace RestuarantApp
             List<Restuarant> restuarants = new List<Restuarant>
             {
                 new Restuarant(1, "Quanjude Roast Duck", "Beijing Cuisine", 4.5),
+                new Restuarant(2, "Donglaishun Hot Pot", "Hot Pot", 4.6),
             };
 
 
