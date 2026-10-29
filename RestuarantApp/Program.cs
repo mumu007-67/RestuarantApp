@@ -15,7 +15,7 @@ namespace RestuarantApp
 
             List<Restuarant> restuarants = new List<Restuarant>
             {
-                
+                new Restuarant(1, "Quanjude Roast Duck", "Beijing Cuisine", 4.5),
             };
 
 
