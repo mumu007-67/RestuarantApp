@@ -19,6 +19,7 @@ namespace RestuarantApp
                 new Restaurant(2, "Donglaishun Hot Pot", "Hot Pot", 4.6),
                 new Restaurant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7),
                 new Restaurant(4, "Din Tai Fung", "Taiwanese Cuisine", 4.7),
+                new Restaurant(5, "Din Tai Fung", "Taiwanese Cuisine", 4.7),
 
             };
 
