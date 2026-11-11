@@ -23,6 +23,20 @@ namespace RestuarantApp
 
             };
 
+            Console.WriteLine("\n===== Restaurant List =====");
+
+            foreach (Restaurant r in restuarants)
+            {
+                Console.WriteLine($"ID: {r.id} | Name: {r.name} | Type: {r.type} | Rating: {r.rating}");
+            }
+
+            // แสดงจำนวนร้านทั้งหมด
+            Console.WriteLine($"\nTotal Restaurants: {restuarants.Count}");
+
+            // คำนวณคะแนนเฉลี่ยของทุกร้าน
+            double averageRating = restuarants.Average(r => r.rating);
+
+            Console.WriteLine($"Average Rating: {averageRating:F2}");
 
 
 
